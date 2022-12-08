@@ -1,0 +1,30 @@
+GET http://localhost:8080/authorize?user=Ivan&password=12345678
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=Fedua&password=12345851448
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=Fedua&password=1234585448
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=&password=1234585448
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=Fedua&password=
+Accept: application/json
+
+###
+
+
+GET http://localhost:8080/authorize?user=Fedua&password=11
+Accept: application/json
+
+###
